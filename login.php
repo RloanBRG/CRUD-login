@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html class="light" lang="en">
+<html class="light" lang="pt-br">
 
 <head>
     <meta charset="utf-8" />
@@ -160,7 +160,7 @@
                     </div>
                     <div class="relative">
                         <span class="material-symbols-outlined absolute left-md top-1/2 -translate-y-1/2 text-outline">lock</span>
-                        <input class="w-full pl-[3rem] pr-md py-sm border border-outline-variant rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-primary-container focus:border-primary-container transition-all text-body-md" id="password" placeholder="••••••••" required="" type="password" />
+                        <input class="w-full pl-[3rem] pr-md py-sm border border-outline-variant rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-primary-container focus:border-primary-container transition-all text-body-md" id="password" placeholder="••••••••" required="" type="password" name="senha"/>
                     </div>
                 </div>
                 <!-- Options -->

@@ -1,14 +1,16 @@
 <?php
+
 include("conexao.php");
 
 $nome = $_POST['nome'];
 $email = $_POST['email'];
-
-$sql = "INSERT INTO alunos (nome, email) VALUES ('$nome', '$email')";
-
+$senha = $_POST['senha'];
+$sql = "INSERT INTO usuarios(nome,email,senha)
+        VALUES('$nome', '$email', '$senha')";
 if ($conn->query($sql) === TRUE) {
-    header("Location: index.php");
+    header("Location: dashboard.php");
 } else {
-    echo "Erro: ". $conn->error;
+    echo "Errou";
 }
+
 ?>

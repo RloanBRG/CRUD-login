@@ -1,13 +1,14 @@
 <?php
+
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "crud_php";
+$db = "sistema_login";
 
 $conn = new mysqli($host, $user, $pass, $db);
 
-if ($conn->connect_error){
-    die("Erro de conexao: " . $conn->connect_error);
-
+if ($conn->connect_error) {
+    die("Erro ao conectar: ". $conn->connect_error);
 }
+
 ?>
